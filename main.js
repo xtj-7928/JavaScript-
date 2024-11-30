@@ -25,6 +25,8 @@ console.log(x);
 */
 //if...else控制结构
 
+
+/*
 var name = "Daniel";
 var age = 20;
 
@@ -41,3 +43,16 @@ else
 {
 	console.log("Stranger");
 }
+*/
+
+function sequence() {
+	let a = 2;
+	let b = 20;
+	let i = a;
+	while( i <= b )
+	{
+		console.log(i);
+		i + 2;
+	}
+}
+sequence();
